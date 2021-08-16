@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="Deskription" content="Latihan Project Buat CSS Grid" />
+    <meta name="Keywords" content="Latihan, Project, CSS Grid," />
+    <meta name="Author" content="IyadRozan" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keyboard Mechanical Indonesia</title>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Hero Image -->
+    <div class="container">
+      <header class="header">
+        <div class="hero">
+          <h2 class="heading">Mechanical Keyboard</h2>
+          <p class="sub-heading">Upgrade Your Keyboard</p>
+        </div>
+        <div class="features feature-1">
+          <h4 class="price">IDR 500K</h4>
+          <p class="item">KeyChron Blue</p>
+        </div>
+        <div class="features feature-2">
+          <h4 class="price">IDR 450K</h4>
+          <p class="item">KeyChron Red</p>
+        </div>
+      </header>
+
+      <nav class="menu">
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="brand">
+          <h1>Keyboard Mechanical</h1>
+        </div>
+        <ul class="menu-list">
+          <li><a href="">Home</a></li>
+          <li><a href="">Product</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Gallery</a></li>
+        </ul>
+      </nav>
+
+      <section class="services">
+        <div class="service">
+          <div class="icon">⌨️</div>
+          <h3>Switch</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos nulla modi earum sapiente!</p>
+        </div>
+        <div class="service">
+          <div class="icon">🤵</div>
+          <h3>Best Experience</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos nulla modi earum sapiente!</p>
+        </div>
+        <div class="service">
+          <div class="icon">🎮</div>
+          <h3>For Gaming & Work</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos nulla modi earum sapiente!</p>
+        </div>
+        <div class="service">
+          <div class="icon">🕹️</div>
+          <h3>Pro Gamers</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos nulla modi earum sapiente!</p>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <h2>Gallery</h2>
+        <img src="https://source.unsplash.com/1000x1000/?keyboard" alt="" />
+        <img src="https://source.unsplash.com/1600x1600/?keyboard" alt="" />
+        <img src="https://source.unsplash.com/1100x1100/?keyboard" alt="" />
+        <img src="https://source.unsplash.com/1200x1200/?keyboard" alt="" />
+        <img src="https://source.unsplash.com/1300x1300/?keyboard" alt="" />
+        <img src="https://source.unsplash.com/1400x1400/?keyboard" alt="" />
+        <img src="https://source.unsplash.com/1500x1500/?keyboard" alt="" />
+        <img src="https://source.unsplash.com/1700x1700/?keyboard" alt="" />
+        <img src="https://source.unsplash.com/1800x1800/?keyboard" alt="" />
+        <img src="https://source.unsplash.com/1900x1900/?keyboard" alt="" />
+      </section>
+    </div>
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle input");
+      const nav = document.querySelector("nav ul");
+
+      menuToggle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+      });
+    </script>
+  </body>
+</html>
